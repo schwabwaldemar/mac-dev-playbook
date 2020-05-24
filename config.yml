@@ -1,0 +1,91 @@
+---
+downloads: ~/.ansible-downloads/
+
+configure_dotfiles: yes
+configure_sudoers: no
+configure_terminal: no
+configure_osx: no
+
+dotfiles_repo: https://github.com/josmo/dotfiles.git
+dotfiles_repo_accept_hostkey: yes
+dotfiles_repo_local_destination: ~/Development/workspace/GitHub/dotfiles
+dotfiles_files:
+  - .gitconfig
+  - .gitignore_global
+  - .anyconnect
+  - .zshrc
+homebrew_installed_packages:
+  # - ansible # Installed via Pip.
+  - go
+  - gpg
+  - nmap
+  - node
+  - ssh-copy-id
+  - terraform
+  - vault
+  - wget
+  - zsh-completion
+
+homebrew_taps:
+  - homebrew/core
+  - homebrew/cask
+  - homebrew/cask-versions
+
+homebrew_cask_appdir: /Applications
+homebrew_cask_apps:
+  - google-chrome
+  - slack
+  - keybase
+  - 1password
+  - arq
+  - transmission
+  - ngrok
+  - vlc
+  - jetbrains-toolbox
+  - sourcetree
+  - insync
+  - screen
+  - zoomus
+  - secure-pipes
+  - freemind
+  - cyberduck
+  - docker-edge
+
+# See `geerlingguy.mas` role documentation for usage instructions.
+mas_installed_apps:
+  - { id: 497799835, name: "Xcode" }
+  - { id: 1107828211, name: "ScreenFlow 6" }
+  - { id: 947578651, name: "djay Pro" }
+  - { id: 540107482, name: "DiverLog Lite" }
+  - { id: 405399194, name: "Kindle" }
+  - { id: 568494494, name: "Pocket" }
+  - { id: 1278508951, name: "Trello" }
+  - { id: 1147396723, name: "WhatsApp Desktop" }
+
+mas_email: ""
+mas_password: ""
+
+osx_script: "~/.osx --no-restart"
+
+# Install packages from other package managers.
+# Note: You are responsible for making sure the required package managers are
+# installed, eg. through homebrew.
+composer_packages: []
+  # - name: drush
+  #   state: present # present/absent, default: present
+  #   version: "^8.1" # default: N/A
+gem_packages: []
+  # - name: bundler
+  #   state: present # present/absent/latest, default: present
+  #   version: "~> 1.15.1" # default: N/A
+npm_packages: []
+  # - name: webpack
+  #   state: present # present/absent/latest, default: present
+  #   version: "^2.6" # default: N/A
+pip_packages: []
+  # - name: mkdocs
+  #   state: present # present/absent/latest, default: present
+  #   version: "0.16.3" # default: N/A
+
+# Glob pattern to ansible task files to run after all other tasks are finished.
+post_provision_tasks: []
