@@ -21,10 +21,15 @@ homebrew_installed_packages:
   - nmap
   - node
   - ssh-copy-id
-  - terraform
+  - tfswitch
+  - terraform-docs
   - vault
   - wget
   - zsh-completion
+  - java
+  - thefuck
+  - helm
+  - helm@2
 
 homebrew_taps:
   - homebrew/core
@@ -37,6 +42,7 @@ homebrew_cask_apps:
   - slack
   - keybase
   - 1password
+  - postman
   - arq
   - transmission
   - ngrok
@@ -49,7 +55,6 @@ homebrew_cask_apps:
   - secure-pipes
   - freemind
   - cyberduck
-  - docker-edge
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps:
