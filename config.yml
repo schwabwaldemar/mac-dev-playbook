@@ -11,6 +11,7 @@ dotfiles_repo_accept_hostkey: yes
 dotfiles_repo_local_destination: ~/Development/workspace/GitHub/dotfiles
 dotfiles_files:
   - .gitconfig
+  - .gitconfig.tmo
   - .gitignore_global
   - .anyconnect
   - .zshrc
