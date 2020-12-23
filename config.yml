@@ -41,7 +41,6 @@ homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
   - google-chrome
   - slack
-  - keybase
   - 1password
   - postman
   - arq
