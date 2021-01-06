@@ -2,12 +2,18 @@
 downloads: ~/.ansible-downloads/
 
 configure_dotfiles: yes
-configure_sudoers: no
 configure_terminal: no
 configure_osx: no
 
+configure_sudoers: false
+sudoers_custom_config: ''
+# Example:
+# sudoers_custom_config: |
+#   # Allow users in admin group to use sudo with no password.
+#   %admin ALL=(ALL) NOPASSWD: ALL
+
 dotfiles_repo: https://github.com/josmo/dotfiles.git
-dotfiles_repo_accept_hostkey: yes
+dotfiles_repo_accept_hostkey: true
 dotfiles_repo_local_destination: ~/Development/workspace/GitHub/dotfiles
 dotfiles_files:
   - .gitconfig
@@ -15,6 +21,7 @@ dotfiles_files:
   - .gitignore_global
   - .anyconnect
   - .zshrc
+
 homebrew_installed_packages:
   # - ansible # Installed via Pip.
   - go
@@ -22,7 +29,7 @@ homebrew_installed_packages:
   - nmap
   - node
   - ssh-copy-id
-  - tfswitch
+  - warrensbox/tap/tfswitch
   - terraform-docs
   - vault
   - wget
@@ -31,6 +38,8 @@ homebrew_installed_packages:
   - thefuck
   - helm
   - helm@2
+  - openconnect
+  - vpn-slice
 
 homebrew_taps:
   - homebrew/core
