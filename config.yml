@@ -19,7 +19,6 @@ dotfiles_files:
   - .gitconfig
   - .gitconfig.tmo
   - .gitignore_global
-  - .anyconnect
   - .zshrc
 
 homebrew_installed_packages:
