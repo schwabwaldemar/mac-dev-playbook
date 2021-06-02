@@ -58,7 +58,7 @@ homebrew_cask_apps:
   - jetbrains-toolbox
   - sourcetree
   - insync
-  - screen
+  - pop
   - zoom
   - secure-pipes
   - freemind
