@@ -33,7 +33,9 @@ homebrew_installed_packages:
   - vault
   - wget
   - zsh-completion
-  - java
+  - openjdk
+  - openjdk@11
+  - jenv
   - thefuck
   - helm
   - helm@2
