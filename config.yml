@@ -14,7 +14,7 @@ sudoers_custom_config: ''
 
 dotfiles_repo: https://github.com/josmo/dotfiles.git
 dotfiles_repo_accept_hostkey: true
-dotfiles_repo_local_destination: ~/Development/workspace/GitHub/dotfiles
+dotfiles_repo_local_destination: ~/Development/workspace/src/github.com/josmo/dotfiles
 dotfiles_files:
   - .gitconfig
   - .gitconfig.tmo
@@ -41,6 +41,7 @@ homebrew_installed_packages:
   - helm@2
   - openconnect
   - vpn-slice
+  - jq
 
 homebrew_taps:
   - homebrew/core
@@ -65,6 +66,11 @@ homebrew_cask_apps:
   - secure-pipes
   - freemind
   - cyberduck
+  - keybase
+  - microsoft-teams
+  - docker
+  - krisp
+  - 1password-cli
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps:
