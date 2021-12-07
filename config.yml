@@ -42,6 +42,9 @@ homebrew_installed_packages:
   - openconnect
   - vpn-slice
   - jq
+  - awscli
+  - saml2aws
+  - datawire/blackbird/telepresence-arm64
 
 homebrew_taps:
   - homebrew/core
