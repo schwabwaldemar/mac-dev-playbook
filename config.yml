@@ -33,6 +33,7 @@ homebrew_installed_packages:
   - vault
   - wget
   - zsh-completion
+  - fzf
   - openjdk
   - openjdk@11
   - jenv
@@ -46,6 +47,8 @@ homebrew_installed_packages:
   - saml2aws
   - datawire/blackbird/telepresence-arm64
   - sops
+  - gawk
+  - nvm
 
 homebrew_taps:
   - homebrew/core
