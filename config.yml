@@ -17,9 +17,9 @@ dotfiles_repo_accept_hostkey: true
 dotfiles_repo_local_destination: ~/Development/workspace/src/github.com/josmo/dotfiles
 dotfiles_files:
   - .gitconfig
-  - .gitconfig.tmo
   - .gitignore_global
   - .zshrc
+  - .tmux.conf
 
 homebrew_installed_packages:
   # - ansible # Installed via Pip.
@@ -37,18 +37,24 @@ homebrew_installed_packages:
   - openjdk
   - openjdk@11
   - jenv
-  - thefuck
   - helm
-  - helm@2
   - openconnect
   - vpn-slice
   - jq
   - awscli
-  - saml2aws
   - datawire/blackbird/telepresence-arm64
   - sops
   - gawk
   - nvm
+  - aws-sso-cli
+  - tmux
+  - kind
+  - kubebuilder
+  - ansible-lint
+  - danielfoehrkn/switch/switch
+  - tfupdate
+  - pre-commit
+  - virtctl
 
 homebrew_taps:
   - homebrew/core
@@ -58,7 +64,6 @@ homebrew_taps:
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
   - google-chrome
-  - brave-browser
   - slack
   - 1password
   - postman
@@ -75,20 +80,19 @@ homebrew_cask_apps:
   - freemind
   - cyberduck
   - keybase
-  - microsoft-teams
   - docker
   - 1password-cli
 
 # See `geerlingguy.mas` role documentation for usage instructions.
-mas_installed_apps:
-  - { id: 497799835, name: "Xcode" }
-  - { id: 1107828211, name: "ScreenFlow 6" }
-  - { id: 947578651, name: "djay Pro" }
-  - { id: 540107482, name: "DiverLog Lite" }
-  - { id: 405399194, name: "Kindle" }
-  - { id: 568494494, name: "Pocket" }
-  - { id: 1278508951, name: "Trello" }
-  - { id: 1147396723, name: "WhatsApp Desktop" }
+#mas_installed_apps:
+#  - { id: 497799835, name: "Xcode" }
+#  - { id: 1107828211, name: "ScreenFlow 6" }
+#  - { id: 947578651, name: "djay Pro" }
+#  - { id: 540107482, name: "DiverLog Lite" }
+#  - { id: 405399194, name: "Kindle" }
+#  - { id: 568494494, name: "Pocket" }
+#  - { id: 1278508951, name: "Trello" }
+#  - { id: 1147396723, name: "WhatsApp Desktop" }
 
 mas_email: ""
 mas_password: ""
