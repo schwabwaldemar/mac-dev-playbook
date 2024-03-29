@@ -48,6 +48,7 @@ homebrew_installed_packages:
   - nvm
   - aws-sso-cli
   - tmux
+  - reattach-to-user-namespace
   - kind
   - kubebuilder
   - ansible-lint
