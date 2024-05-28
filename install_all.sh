@@ -16,7 +16,7 @@ brew install --cask phpstorm postman visual-studio-code iterm2 cyberduck github 
 
 
 # install command line tools for development
-brew install ddev oh-my-zsh zsh-autosuggestions doxygen sqlite
+brew install ddev/ddev/ddev oh-my-zsh zsh-autosuggestions doxygen sqlite
 
 # install usefull command line tools
 brew install p7zip bzip2 curl wget iperf net-tools
