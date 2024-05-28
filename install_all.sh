@@ -20,3 +20,6 @@ brew install ddev oh-my-zsh zsh-autosuggestions doxygen sqlite
 
 # install usefull command line tools
 brew install p7zip bzip2 curl wget iperf net-tools
+
+# Für Ronny
+brew install --cask jetbrains-toolbox
