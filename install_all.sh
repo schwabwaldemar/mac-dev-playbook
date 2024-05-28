@@ -5,14 +5,14 @@ xcode-select --install
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 # install casks for office and browsers
-brew cask install google-chrome firefox microsoft-edge microsoft-office microsoft-teams
+brew install --cask google-chrome firefox microsoft-edge microsoft-office microsoft-teams
 
 # install casks to support the workflows
-brew cask install docker bitwarden vpn-tracker-365
+brew install --cask docker bitwarden vpn-tracker-365
 # vpn tracker supports sonicwall and anyconnect
 
 # install casks for development
-brew cask install phpstorm postman visual-studio-code iterm2 cyberduck github sourcetree
+brew install --cask phpstorm postman visual-studio-code iterm2 cyberduck github sourcetree
 
 
 # install command line tools for development
