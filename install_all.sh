@@ -8,7 +8,7 @@ xcode-select --install
 brew install --cask google-chrome firefox microsoft-edge microsoft-office microsoft-teams
 
 # install casks to support the workflows
-brew install --cask docker bitwarden vpn-tracker-365
+brew install --cask docker bitwarden
 # vpn tracker supports sonicwall and anyconnect
 
 # install casks for development
